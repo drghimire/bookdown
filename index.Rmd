@@ -1,19 +1,22 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Demo Book"
+author: "Dhruba Ghimire"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
+link-citations: yes
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
   This is a minimal example of using the bookdown package to write a book.
   The HTML output format for this example is bookdown::gitbook,
   set in the _output.yml file.
-link-citations: yes
+favicon: images/favicon.ico
+cover-image: images/GoN_Logo.png
 github-repo: https://github.com/drghimire/bookdown
+url: https://drghimire.github.io/bookdown/
 ---
 
 # Prerequisites {-}
