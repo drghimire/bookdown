@@ -1,6 +1,7 @@
 bookdown::gitbook:
   highlight: tango
-  css: style.css
+  css: assets/style.css
+
   config:
     edit:
       link: https://github.com/drghimire/bookdown/edit/master/%s
