@@ -3,13 +3,18 @@ bookdown::gitbook:
   css: style.css
   config:
     edit:
-        link: https://github.com/drghimire/bookdown/edit/master/%s
-        text: "Suggest an edit"
+      link: https://github.com/drghimire/bookdown/edit/master/%s
+      text: "Suggest an edit"
+    sharing:
+      githhub: yes
+      facebook: no
+      twitter: yes
+      all: no
     toc:
       collapse: section
       before: |
         <li><a href="./">Demo Book</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    download: ["pdf", "epub"]
+    download: ["rmd"]
 

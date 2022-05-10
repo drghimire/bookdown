@@ -16,7 +16,7 @@ set in the _output.yml file.</p>" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta name="github-repo" content="https://github.com/drghimire/bookdown" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 6 Sharing your book | A Minimal Book Example" />
@@ -26,7 +26,7 @@ The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
   
 
-<meta name="author" content="John Doe" />
+<meta name="author" content="Yihui Xie" />
 
 
 <meta name="date" content="2022-05-10" />
@@ -269,14 +269,15 @@ gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
-"facebook": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
 "whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+"all": false,
+"githhub": true
 },
 "fontsettings": {
 "theme": "white",
@@ -295,7 +296,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["drgBookdown.pdf", "drgBookdown.epub"],
+"download": ["https://github.com/drghimire/bookdown/raw/master/06-share.Rmd"],
 "search": {
 "engine": "fuse",
 "options": null
